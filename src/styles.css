@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    height: 100vh;
+    background-image: url('assets/final.jpg');
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(169, 169, 169, 0.075);
+}
