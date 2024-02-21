@@ -1,3 +1,28 @@
-.main{
-background-image: url(../../assets/novomodelo768.png);
+main{
+    
+    
+}
+section{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+img{
+  
+}
+div{
+ 
+}
+
+span{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: justify;
 }
