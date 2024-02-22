@@ -1,9 +1,13 @@
 footer{
-    padding-bottom: 15px;
-    padding-top: 15px;
+    height: 50px;
+    position: relative;
+
 }
 div.socials{
-    
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 a{
     text-decoration: none;
@@ -18,9 +22,8 @@ i{
     height: 50px;
     background: transparent;
     font-size: 40px;
-    text-decoration: none;
     color: #20F0F1;
-    margin: 25px;
+    margin-inline: 25px;
     transition: 0.5s ease;
 }
 
