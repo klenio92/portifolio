@@ -22,7 +22,7 @@ nav{
     gap: 25%;
 }
 
-a#principal{
+h1#principal{
     font-family: "pacifico";
     font-size: 40px;
     background: -webkit-linear-gradient(#20F0F1, #F98EF7);
