@@ -1,21 +1,22 @@
 main{
     padding: 0 25px;
-}
-section{
     display: flex;
     align-items: center;
 }
 img{
-    padding: 1%;
     animation: floating 4s ease-in-out infinite;
     animation-delay: 5s, 5s;
+    width: 75%;
+    height: 75%;
+    padding: 1%;
 }
-div.foto{
+section.foto{
+    padding-left: 10%;
 }
-div.conteudo{
+section.conteudo{
     box-sizing: border-box;
-    height: 636px;
-    width: 1200px;
+    height: 400px;
+    width: 600px;
     padding: 2%;
     align-items: center;
     background-color: #007FFF;
@@ -24,16 +25,17 @@ div.conteudo{
     border-radius: 25px;
 }
 h1{
-    background-color: #007FFF;
+    background-color: #00b7ff;
     font-size: 60px;
     font-weight: 900;
     text-align: center;  
 }
 p{
-    background-color: #007FFF;
+    background-color: #00ff73;
     font-size: 25px;
     font-weight: 600;
     text-align: justify;
+    padding: 3%;
 }
 @keyframes floating {
     0%{

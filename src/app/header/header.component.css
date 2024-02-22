@@ -4,20 +4,21 @@
     font-weight: 600;
     color: #20F0F1;
     text-decoration: none;
-    padding: 0 5px;
+    padding: 5px 20px;
 }
 
 header{
     background-color: transparent;
     display: flex;
     flex-direction: row;
+    position: relative;
     gap: 25%;
 }
 
 nav{
     display: flex;
     align-items: center;
-    gap: 20%;
+    flex-direction: row;
 }
 
 a#principal{
