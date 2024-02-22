@@ -1,6 +1,7 @@
 footer{
     height: 50px;
     position: relative;
+    padding-bottom: 5%;
 }
 div.socials{
     left: 50%;

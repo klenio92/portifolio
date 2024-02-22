@@ -4,21 +4,22 @@
     font-weight: 600;
     color: #20F0F1;
     text-decoration: none;
-    padding: 5px 20px;
 }
 
 header{
+    padding: 0 2%;
     background-color: transparent;
     display: flex;
     flex-direction: row;
     position: relative;
-    gap: 25%;
+    gap: 32%;
 }
 
 nav{
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 25%;
 }
 
 a#principal{
