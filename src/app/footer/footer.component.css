@@ -1,0 +1,32 @@
+footer{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+div.socials{
+    
+}
+a{
+    text-decoration: none;
+}
+i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2.5px solid #20F0F1;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    font-size: 40px;
+    text-decoration: none;
+    color: #20F0F1;
+    margin: 25px;
+    transition: 0.5s ease;
+}
+
+i:hover{
+    background-color: #F98EF7;
+    color: #0E1213;
+    box-shadow: 0 0 20px #F98EF7;
+    border-color: #F98EF7;
+}

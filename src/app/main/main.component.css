@@ -1,28 +1,48 @@
 main{
-    
-    
+    padding: 0 25px;
 }
 section{
     display: flex;
     align-items: center;
-    background-color: aliceblue;
 }
-
 img{
-  
+    padding: 1%;
+    animation: floating 4s ease-in-out infinite;
+    animation-delay: 5s, 5s;
 }
-div{
- 
+div.foto{
 }
+div.conteudo{
+    box-sizing: border-box;
+    height: 636px;
+    width: 1200px;
+    padding: 2%;
+    align-items: center;
+    background-color: #007FFF;
 
-span{
+    
+    border-radius: 25px;
+}
+h1{
+    background-color: #007FFF;
     font-size: 60px;
     font-weight: 900;
-    text-align: center;
+    text-align: center;  
 }
-
 p{
+    background-color: #007FFF;
     font-size: 25px;
     font-weight: 600;
     text-align: justify;
+}
+@keyframes floating {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-24px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
