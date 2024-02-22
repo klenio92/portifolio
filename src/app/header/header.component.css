@@ -35,4 +35,5 @@ a.option{
 a.option:hover,
 a.option:active{
     color: #F98EF7;
+    text-shadow: 0px 0px 20px #F98EF7;
 }
