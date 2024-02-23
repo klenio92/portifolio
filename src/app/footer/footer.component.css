@@ -1,12 +1,20 @@
 footer{
-    padding: 0 1%;
+    padding: 1% 1%;
     display: flex;
-    justify-content: flex-end;
-}
-div.socials{
-    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 1% 16%;
+}
+.socials{
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    align-items: center;
+}
+.socials::after,
+.socials::before{
+    content: "";
+    height: 5px;
+    background-color: #F98EF7;
+    display: block;
 }
 a{
     text-decoration: none;

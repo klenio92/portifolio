@@ -17,7 +17,7 @@ h1{
     
     font-family: "pacifico";
     font-size: 40px;
-    background: -webkit-linear-gradient(#20F0F1, #F98EF7);
+    background: -webkit-linear-gradient(0deg, #20F0F1, #F98EF7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -25,10 +25,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10%;
 }
 a.option{
     transition: 0.5s;
-    margin: 0 15px;
 }
 a.option:hover,
 a.option:active{
