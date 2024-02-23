@@ -5,35 +5,31 @@
     color: #20F0F1;
     text-decoration: none;
 }
-
 header{
-    padding: 0 2%;
+    padding: 0 1%;
     background-color: transparent;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
-    position: relative;
-    gap: 32%;
+    /**position: relative;**/
 }
-
-nav{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 25%;
-}
-
-h1#principal{
+h1{
+    
     font-family: "pacifico";
     font-size: 40px;
     background: -webkit-linear-gradient(#20F0F1, #F98EF7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 a.option{
     transition: 0.5s;
+    margin: 0 15px;
 }
-
 a.option:hover,
 a.option:active{
     color: #F98EF7;
