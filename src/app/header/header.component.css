@@ -15,10 +15,10 @@ header{
 }
 h1{
     
-    font-family: "pacifico";
+    font-family: "Anta", sans-serif;
     font-size: 40px;
     background: -webkit-linear-gradient(0deg, #20F0F1, #F98EF7);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
 }
