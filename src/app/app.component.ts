@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { AboutComponent } from './about/about.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, HeaderComponent, MainComponent, FooterComponent, ProjectsComponent,
-     AboutComponent, RouterOutlet, RouterLink],
+  imports: [CommonModule, HeaderComponent, RouterOutlet, FooterComponent],
   selector: 'portifolio-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
